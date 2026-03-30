@@ -1,5 +1,4 @@
 #include "CCapteur.h"
-#include "Arduino.h"
 
 CCapteur::CCapteur(int id, int pin) : _id(id), _pin(pin), _isConnected(false), _pinMode(INPUT) {
     _value[0] = 0.0;
